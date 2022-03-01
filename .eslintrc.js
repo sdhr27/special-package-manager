@@ -237,10 +237,10 @@ module.exports = {
       version: 'detect',
     },
     'import/resolver': {
-      // webpack: {
-      //   config: 'webpack.alias.js',
-      //   extensions: ['.js', '.jsx', '.tsx', '.less'],
-      // },
+      webpack: {
+        config: 'webpack.alias.js',
+        extensions: ['.js', '.jsx', '.tsx', '.less'],
+      },
       node: {
         extensions: ['.js', '.jsx', '.ts', '.tsx'],
       },
